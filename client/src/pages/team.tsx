@@ -6,9 +6,9 @@ import TeamMemberCard from "@/components/TeamMemberCard";
 
 const teamMembers = [
   {
-    name: "Dr. Alexander Müller",
-    role: "CEO & KI-Strategieberater",
-    description: "Mit über 15 Jahren Erfahrung in der KI-Forschung und Unternehmensstrategie führt Alexander unser Team bei der Entwicklung maßgeschneiderter KI-Lösungen für Unternehmen jeder Größe.",
+    name: "Patrick Thomas",
+    role: "CEO & KI-Experte",
+    description: "Mit umfassender KI-Expertise und langjähriger Erfahrung in Automatisierung entwickelt Patrick innovative KI-Lösungen, um Unternehmen nachhaltig zu transformieren und interne Prozesse zu optimieren.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
     social: {
       linkedin: "#",
