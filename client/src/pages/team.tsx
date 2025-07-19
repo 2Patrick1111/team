@@ -7,6 +7,7 @@ import patrickImage from "@/assets/profilbild_1752935146997.png";
 import antonioImage from "@/assets/Antonio_1752935777029.png";
 import jennyImage from "@/assets/Jenny_1752936012533.png";
 import antonImage from "@/assets/anton_1752936501027.png";
+import markoImage from "@/assets/Marko_1752937178012.png";
 
 const teamMembers = [
   {
@@ -57,7 +58,7 @@ const teamMembers = [
     name: "Dr. Marko Müller",
     role: "Head of Growth & Customer Experience",
     description: "Als Kommunikationsspezialist stärkt Marko sowohl interne Prozesse als auch die externe Kommunikation und ist damit ein zentraler Bestandteil unseres Teams.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
+    image: markoImage,
     social: {
       linkedin: "#",
       github: "#",
