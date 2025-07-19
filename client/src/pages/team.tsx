@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import TeamMemberCard from "@/components/TeamMemberCard";
 import patrickImage from "@/assets/profilbild_1752935146997.png";
 import antonioImage from "@/assets/Antonio_1752935777029.png";
+import jennyImage from "@/assets/Jenny_1752936012533.png";
 
 const teamMembers = [
   {
@@ -33,7 +34,7 @@ const teamMembers = [
     name: "Jenny Thomas",
     role: "Controlling und Antragswesen",
     description: "Mit ihrer Expertise im Controlling und der Automatisierung von Antragsprozessen sorgt Jenny für reibungslose Abläufe und ist die Spezialistin für effizientes Antragswesen in unserem Team.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
+    image: jennyImage,
     social: {
       linkedin: "#",
       xing: "#",
