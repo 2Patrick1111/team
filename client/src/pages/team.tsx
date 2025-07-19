@@ -140,13 +140,6 @@ export default function Team() {
 
         {/* Team Section */}
         <section className="team-section">
-          <div className="section-header">
-            <h2 className="section-title">Unsere Experten</h2>
-            <p className="section-subtitle">
-              Mit jahrelanger Erfahrung in künstlicher Intelligenz, Strategieberatung und Unternehmenstransformation helfen wir Ihnen dabei, das volle Potenzial der KI für Ihr Unternehmen zu erschließen.
-            </p>
-          </div>
-
           <div className="team-grid">
             {teamMembers.map((member, index) => (
               <TeamMemberCard key={index} member={member} />
