@@ -164,17 +164,7 @@ export default function Team() {
               </Link>
             </div>
 
-            {/* CTA 3: Teameinblick */}
-            <div className="cta-card">
-              <div className="cta-icon">👥</div>
-              <h3 className="cta-title">Teameinblick</h3>
-              <p className="cta-description">Lerne die Allstars kennen</p>
-              <Link href="/team" className="cta-button-card">
-                Team entdecken
-              </Link>
-            </div>
-
-            {/* CTA 4: Kontakt */}
+            {/* CTA 3: Kontakt */}
             <div className="cta-card">
               <div className="cta-icon">💬</div>
               <h3 className="cta-title">Kontaktieren</h3>
