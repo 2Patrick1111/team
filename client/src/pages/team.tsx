@@ -54,9 +54,9 @@ const teamMembers = [
     }
   },
   {
-    name: "Thomas Klein",
-    role: "Lead Software Engineer",
-    description: "Thomas verantwortet die technische Implementierung unserer KI-Systeme und sorgt für skalierbare, sichere und effiziente Lösungen, die nahtlos in bestehende Unternehmensinfrastrukturen integriert werden können.",
+    name: "Dr. Marko Müller",
+    role: "Head of Growth & Customer Experience",
+    description: "Als Kommunikationsspezialist stärkt Marko sowohl interne Prozesse als auch die externe Kommunikation und ist damit ein zentraler Bestandteil unseres Teams.",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
     social: {
       linkedin: "#",
