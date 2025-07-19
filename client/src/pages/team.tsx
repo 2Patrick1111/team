@@ -141,6 +141,50 @@ export default function Team() {
           </div>
         </section>
 
+        {/* CTA Grid Section */}
+        <section className="cta-grid-section">
+          <div className="cta-grid">
+            {/* CTA 1: Broschüre */}
+            <div className="cta-card">
+              <div className="cta-icon">📄</div>
+              <h3 className="cta-title">Kostenlose Broschüre</h3>
+              <p className="cta-description">Erhalten Sie alle Details zum 5-Wochen AI-PASS Programm als PDF</p>
+              <Link href="/brochure" className="cta-button-card">
+                Broschüre herunterladen
+              </Link>
+            </div>
+
+            {/* CTA 2: Kurseinblick */}
+            <div className="cta-card">
+              <div className="cta-icon">🎓</div>
+              <h3 className="cta-title">Kurseinblick</h3>
+              <p className="cta-description">Erfahre mehr über unseren Kurs</p>
+              <Link href="/roi-rechner" className="cta-button-card">
+                Kurs entdecken
+              </Link>
+            </div>
+
+            {/* CTA 3: Teameinblick */}
+            <div className="cta-card">
+              <div className="cta-icon">👥</div>
+              <h3 className="cta-title">Teameinblick</h3>
+              <p className="cta-description">Lerne die Allstars kennen</p>
+              <Link href="/team" className="cta-button-card">
+                Team entdecken
+              </Link>
+            </div>
+
+            {/* CTA 4: Kontakt */}
+            <div className="cta-card">
+              <div className="cta-icon">💬</div>
+              <h3 className="cta-title">Kontaktieren</h3>
+              <p className="cta-description">Kontaktiere uns direkt</p>
+              <Link href="/kontakt" className="cta-button-card">
+                Kontakt
+              </Link>
+            </div>
+          </div>
+        </section>
 
       </main>
 
