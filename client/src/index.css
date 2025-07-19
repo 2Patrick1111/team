@@ -299,6 +299,10 @@
   font-size: 80px;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-content h1 .gradient-text {
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
