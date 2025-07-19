@@ -8,6 +8,22 @@ export default function Header() {
   const [location] = useLocation();
 
   useEffect(() => {
+    // Header Scroll Effect
+    const header = document.getElementById('header');
+    let lastScrollTop = 0;
+
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      if (scrollTop > 50) {
+        header?.classList.add('shrunk');
+      } else {
+        header?.classList.remove('shrunk');
+      }
+      
+      lastScrollTop = scrollTop;
+    };
+
     const handleResize = () => {
       if (window.innerWidth > 768) {
         setIsMobileMenuOpen(false);
@@ -21,10 +37,12 @@ export default function Header() {
       }
     };
 
+    window.addEventListener('scroll', handleScroll, { passive: true });
     window.addEventListener('resize', handleResize);
     document.addEventListener('click', handleClickOutside);
     
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
       document.removeEventListener('click', handleClickOutside);
     };
@@ -65,7 +83,7 @@ export default function Header() {
       
       {/* Mobile Star Menu Button */}
       <button 
-        className="star-menu-button" 
+        className={`star-menu-button ${isMobileMenuOpen ? 'active' : ''}`}
         id="menuToggle" 
         aria-label={isMobileMenuOpen ? "Menü schließen" : "Menü öffnen"}
         aria-expanded={isMobileMenuOpen}
