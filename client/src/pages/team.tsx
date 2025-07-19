@@ -64,6 +64,17 @@ const teamMembers = [
       github: "#",
       email: "#"
     }
+  },
+  {
+    name: "Nina Fischer",
+    role: "UX/UI Designerin",
+    description: "Nina gestaltet intuitive und benutzerfreundliche Interfaces für unsere KI-Anwendungen. Ihr Fokus liegt darauf, komplexe KI-Technologie für Endbenutzer zugänglich und verständlich zu machen.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
+    social: {
+      linkedin: "#",
+      dribbble: "#",
+      email: "#"
+    }
   }
 ];
 
