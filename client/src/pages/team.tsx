@@ -141,23 +141,7 @@ export default function Team() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="cta-section">
-          <h2 className="cta-title">Bereit für Ihre KI-Transformation?</h2>
-          <p className="cta-description">
-            Lassen Sie uns gemeinsam das Potenzial der künstlichen Intelligenz für Ihr Unternehmen erschließen. Unser Expertenteam steht Ihnen für eine kostenlose Beratung zur Verfügung.
-          </p>
-          <div className="cta-buttons">
-            <Link href="/kontakt" className="btn-primary">
-              <i className="fas fa-calendar-alt"></i>
-              Beratungstermin vereinbaren
-            </Link>
-            <Link href="/roi-calculator" className="btn-secondary">
-              <i className="fas fa-calculator"></i>
-              ROI-Potenzial berechnen
-            </Link>
-          </div>
-        </section>
+
       </main>
 
       <Footer />
