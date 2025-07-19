@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
+import logoImage from "@/assets/allstars-logo-white_1752933496612.png";
+import starImage from "@/assets/star-white_1752933496613.png";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -39,7 +41,7 @@ export default function Header() {
     <header className="liquid-header" id="header">
       <Link href="/" className="header-logo" id="main-logo">
         <img 
-          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=60" 
+          src={logoImage} 
           alt="AI Allstars" 
           className="logo-image" 
           title="Zur Startseite"
@@ -69,7 +71,7 @@ export default function Header() {
         aria-expanded={isMobileMenuOpen}
         onClick={toggleMobileMenu}
       >
-        <i className="fas fa-star star-icon"></i>
+        <img src={starImage} alt="Menu" className="star-icon" />
       </button>
       
       {/* Mobile Dropdown Menu */}
