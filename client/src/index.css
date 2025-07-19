@@ -378,7 +378,6 @@
 .team-grid .team-card:nth-child(5) {
   grid-column: 3 / span 1;
 }
-}
 
 .team-card {
   background: var(--bg-glass);
