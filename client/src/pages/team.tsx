@@ -18,9 +18,9 @@ const teamMembers = [
     }
   },
   {
-    name: "Sarah Weber",
-    role: "CTO & Machine Learning Expertin",
-    description: "Sarah bringt tiefgreifende technische Expertise in Machine Learning und Data Science mit. Sie leitet die Entwicklung unserer KI-Algorithmen und sorgt für die technische Umsetzung innovativer Lösungen.",
+    name: "Antonio Eichler",
+    role: "CEO & KI-Strategieexperte",
+    description: "Antonio verbindet fundierte KI-Kenntnisse mit exzellenter Kommunikationsstärke und unterstützt Unternehmen dabei, strategisch und strukturell das volle Potenzial künstlicher Intelligenz auszuschöpfen.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
     social: {
       linkedin: "#",
