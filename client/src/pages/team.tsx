@@ -30,9 +30,9 @@ const teamMembers = [
     }
   },
   {
-    name: "Marcus Schmidt",
-    role: "Senior Data Scientist",
-    description: "Als Experte für Datenanalyse und Predictive Analytics hilft Marcus unseren Kunden dabei, wertvolle Erkenntnisse aus ihren Daten zu gewinnen und datengetriebene Entscheidungen zu treffen.",
+    name: "Jenny Thomas",
+    role: "Controlling und Antragswesen",
+    description: "Mit ihrer Expertise im Controlling und der Automatisierung von Antragsprozessen sorgt Jenny für reibungslose Abläufe und ist die Spezialistin für effizientes Antragswesen in unserem Team.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
     social: {
       linkedin: "#",
