@@ -42,9 +42,9 @@ const teamMembers = [
     }
   },
   {
-    name: "Lisa Hoffmann",
-    role: "Business Development Managerin",
-    description: "Lisa ist unsere Expertin für Geschäftsentwicklung und Kundenbeziehungen. Sie sorgt dafür, dass unsere KI-Lösungen perfekt auf die individuellen Bedürfnisse unserer Kunden zugeschnitten sind.",
+    name: "Anton Trommer",
+    role: "KI Experte und Systems Strategist",
+    description: "Anton bringt seine Stärken in der KI- und Systementwicklung sowie der Automatisierung ein, um Unternehmen bei der Effizienzsteigerung wirkungsvoll zu unterstützen.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
     social: {
       linkedin: "#",
