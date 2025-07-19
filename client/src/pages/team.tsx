@@ -6,6 +6,7 @@ import TeamMemberCard from "@/components/TeamMemberCard";
 import patrickImage from "@/assets/profilbild_1752935146997.png";
 import antonioImage from "@/assets/Antonio_1752935777029.png";
 import jennyImage from "@/assets/Jenny_1752936012533.png";
+import antonImage from "@/assets/anton_1752936501027.png";
 
 const teamMembers = [
   {
@@ -45,7 +46,7 @@ const teamMembers = [
     name: "Anton Trommer",
     role: "KI Experte und Systems Strategist",
     description: "Anton bringt seine Stärken in der KI- und Systementwicklung sowie der Automatisierung ein, um Unternehmen bei der Effizienzsteigerung wirkungsvoll zu unterstützen.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=240&h=240",
+    image: antonImage,
     social: {
       linkedin: "#",
       twitter: "#",
