@@ -1,0 +1,159 @@
+Pasted--AI-Allstars-KOMPLETTES-Website-Code-Paket-Header-Footer-f-r-separates-Replit-Projekt--1752663448482_1752663448486.txt
+# 🚀 AI Allstars - KOMPLETTES Website Code-Paket
+
+## Header + Footer für separates Replit-Projekt
+
+### ✅ Was enthalten ist:
+- Header mit Navigation (Desktop + Mobile)
+- Footer mit allen Links
+- Responsive Design
+- Glass Morphism Effekte
+- Mobile Star-Menu
+- 1:1 Original-Optik
+
+---
+
+## 1. HTML-Struktur (komplette Seite)
+
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihre neue Seite - AI Allstars</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/website-styles.css">
+</head>
+<body>
+    <!-- Starry Background -->
+    <div class="starry-bg"></div>
+
+    <!-- Header -->
+    <header class="liquid-header" id="header">
+        <a href="/" class="header-logo" id="main-logo" onclick="handleLogoClick(event)">
+            <img src="static/images/allstars-logo-white.png" alt="AI Allstars" class="logo-image" title="Zur Startseite">
+        </a>
+        <nav class="header-nav" id="headerNav">
+            <a href="/team">Team</a>
+            <a href="/roi-calculator">ROI-Rechner</a>
+            <a href="/kontakt">Kontakt</a>
+        </nav>
+        <a href="/kontakt" class="header-cta">AI Pass Beratung</a>
+        
+        <!-- Mobile Star Menu Button -->
+        <button class="star-menu-button" id="menuToggle" aria-label="Menü öffnen" aria-expanded="false">
+            <img src="static/images/star-white.png" alt="Menu" class="star-icon">
+        </button>
+        
+        <!-- Mobile Dropdown Menu -->
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="/team" class="mobile-nav-item">Team</a>
+            <a href="/roi-calculator" class="mobile-nav-item">ROI-Rechner</a>
+            <a href="/kontakt" class="mobile-nav-item">Kontakt</a>
+            <a href="/kontakt" class="mobile-cta">AI Pass Beratung</a>
+        </nav>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main>
+        <section class="hero" style="margin-top: 120px;">
+            <div class="hero-content">
+                <h1>Ihre neue Seite</h1>
+                <p class="hero-subtitle">Beschreibung Ihrer neuen Seite</p>
+                <p class="hero-description">Weitere Details zu Ihrer neuen Seite...</p>
+            </div>
+        </section>
+        
+        <!-- Weitere Sektionen hier -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="static/images/allstars-logo-white.png" alt="AI Allstars" class="footer-logo-image">
+                </div>
+                <p>Ihr Partner für erfolgreiche KI-Transformation</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <a href="/roi-calculator">KI-Potenzialanalyse</a>
+                    <a href="/#features">AI Pass Details</a>
+                    <a href="/appointment">Strategiegespräch</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Unternehmen</h4>
+                    <a href="/team#team-slider">Über uns</a>
+                    <a href="/team">Team</a>
+                    <a href="/#signup">Kontakt</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Rechtliches</h4>
+                    <a href="/datenschutz">Datenschutz</a>
+                    <a href="/impressum">Impressum</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI Allstars. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="static/js/header-functionality.js"></script>
+</body>
+</html>
+```
+
+---
+
+## 2. CSS-Code (static/css/website-styles.css)
+
+```css
+/* Basis CSS-Variablen */
+:root {
+    --text-primary: #ffffff;
+    --text-secondary: #b8bcc8;
+    --bg-primary: #0a0a0a;
+    --bg-glass: rgba(255, 255, 255, 0.1);
+    --gradient-primary: linear-gradient(135deg, #0080FF 0%, #fe0000 100%);
+    --border-glass: rgba(255, 255, 255, 0.2);
+}
+
+/* Basis Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+.liquid-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    b...
