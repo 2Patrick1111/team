@@ -310,8 +310,9 @@
 }
 
 .hero-subtitle {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  color: var(--text-secondary);
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
   margin-bottom: 2rem;
 }
 
@@ -648,7 +649,7 @@
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 25px;
   }
 
   .team-grid {
