@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TeamMemberCard from "@/components/TeamMemberCard";
 import patrickImage from "@/assets/profilbild_1752935146997.png";
-import antonioImage from "@/assets/Antonio_1752935713652.png";
+import antonioImage from "@/assets/Antonio_1752935777029.png";
 
 const teamMembers = [
   {
