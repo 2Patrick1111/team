@@ -162,7 +162,17 @@ export default function Team() {
               </Link>
             </div>
 
-            {/* CTA 3: Kontakt */}
+            {/* CTA 3: Preise */}
+            <div className="cta-card">
+              <div className="cta-icon">💰</div>
+              <h3 className="cta-title">Preise</h3>
+              <p className="cta-description">Entdecke unsere AI-PASS Pakete und finde das passende für dein Team</p>
+              <Link href="/preise" className="cta-button-card">
+                Preise entdecken
+              </Link>
+            </div>
+
+            {/* CTA 4: Kontakt */}
             <div className="cta-card">
               <div className="cta-icon">💬</div>
               <h3 className="cta-title">Kontaktieren</h3>
