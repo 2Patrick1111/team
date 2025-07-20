@@ -57,7 +57,7 @@ export default function Header() {
 
   return (
     <header className="liquid-header" id="header">
-      <a href="https://ai-allstars.com" className="header-logo" id="main-logo" target="_blank" rel="noopener noreferrer">
+      <a href="https://ai-allstars.com" className="header-logo" id="main-logo">
         <img 
           src={logoImage} 
           alt="AI Allstars" 
@@ -67,21 +67,21 @@ export default function Header() {
       </a>
       
       <nav className="header-nav" id="headerNav">
-        <a href="https://ai-allstars.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://ai-allstars.com">
           Home
         </a>
-        <a href="https://preise.ai-allstars.com" target="_blank" rel="noopener noreferrer">Preise</a>
+        <a href="https://preise.ai-allstars.com">Preise</a>
         <Link 
           href="/team" 
           className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <a href="https://kurs.ai-allstars.com" target="_blank" rel="noopener noreferrer">Kurs</a>
-        <a href="https://kontakt.ai-allstars.com" target="_blank" rel="noopener noreferrer">Kontakt</a>
+        <a href="https://kurs.ai-allstars.com">Kurs</a>
+        <a href="https://kontakt.ai-allstars.com">Kontakt</a>
       </nav>
       
-      <a href="https://kontakt.ai-allstars.com" className="header-cta" target="_blank" rel="noopener noreferrer">
+      <a href="https://kontakt.ai-allstars.com" className="header-cta">
         AI Pass Beratung
       </a>
       
@@ -101,8 +101,6 @@ export default function Header() {
         <a 
           href="https://ai-allstars.com" 
           className="mobile-nav-item"
-          target="_blank" 
-          rel="noopener noreferrer"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Home
@@ -110,8 +108,6 @@ export default function Header() {
         <a 
           href="https://preise.ai-allstars.com" 
           className="mobile-nav-item"
-          target="_blank" 
-          rel="noopener noreferrer"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Preise
@@ -126,8 +122,6 @@ export default function Header() {
         <a 
           href="https://kurs.ai-allstars.com" 
           className="mobile-nav-item"
-          target="_blank" 
-          rel="noopener noreferrer"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kurs
@@ -135,8 +129,6 @@ export default function Header() {
         <a 
           href="https://kontakt.ai-allstars.com" 
           className="mobile-nav-item"
-          target="_blank" 
-          rel="noopener noreferrer"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kontakt
@@ -144,8 +136,6 @@ export default function Header() {
         <a 
           href="https://kontakt.ai-allstars.com" 
           className="mobile-cta"
-          target="_blank" 
-          rel="noopener noreferrer"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           AI Pass Beratung

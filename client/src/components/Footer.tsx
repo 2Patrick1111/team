@@ -19,14 +19,14 @@ export default function Footer() {
         <div className="footer-links">
           <div className="footer-column">
             <h4>Services</h4>
-            <a href="https://kurs.ai-allstars.com" target="_blank" rel="noopener noreferrer">Kurs-Einblick</a>
-            <a href="https://preise.ai-allstars.com" target="_blank" rel="noopener noreferrer">Preise</a>
+            <a href="https://kurs.ai-allstars.com">Kurs-Einblick</a>
+            <a href="https://preise.ai-allstars.com">Preise</a>
           </div>
           
           <div className="footer-column">
             <h4>Unternehmen</h4>
             <Link href="/team">Team</Link>
-            <a href="https://kontakt.ai-allstars.com" target="_blank" rel="noopener noreferrer">Kontakt</a>
+            <a href="https://kontakt.ai-allstars.com">Kontakt</a>
           </div>
           
           <div className="footer-column">
