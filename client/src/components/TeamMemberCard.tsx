@@ -45,10 +45,12 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
   }, []);
 
   const handleSocialClick = (platform: string, url?: string) => {
-    if (url) {
-      window.open(url, '_blank', 'noopener,noreferrer');
+    if (!url) return;
+    
+    if (platform === 'email') {
+      window.location.href = `mailto:${url}`;
     } else {
-      console.log(`${platform} link clicked for ${member.name}`);
+      window.open(url, '_blank', 'noopener,noreferrer');
     }
   };
 
