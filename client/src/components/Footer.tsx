@@ -19,14 +19,12 @@ export default function Footer() {
         <div className="footer-links">
           <div className="footer-column">
             <h4>Services</h4>
-            <Link href="/roi-calculator">KI-Potenzialanalyse</Link>
-            <Link href="/#features">AI Pass Details</Link>
-            <Link href="/appointment">Strategiegespräch</Link>
+            <Link href="/roi-calculator">Kurs-Einblick</Link>
+            <Link href="/#features">Preise</Link>
           </div>
           
           <div className="footer-column">
             <h4>Unternehmen</h4>
-            <Link href="/team#team-slider">Über uns</Link>
             <Link href="/team">Team</Link>
             <Link href="/#signup">Kontakt</Link>
           </div>
