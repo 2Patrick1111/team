@@ -68,12 +68,19 @@ export default function Header() {
       
       <nav className="header-nav" id="headerNav">
         <Link 
+          href="/" 
+          className={isActiveLink('/') ? 'active' : ''}
+        >
+          Home
+        </Link>
+        <Link href="/preise">Preise</Link>
+        <Link 
           href="/team" 
-          className={isActiveLink('/team') || isActiveLink('/') ? 'active' : ''}
+          className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <Link href="/roi-calculator">ROI-Rechner</Link>
+        <Link href="/kurs">Kurs</Link>
         <Link href="/kontakt">Kontakt</Link>
       </nav>
       
@@ -95,18 +102,32 @@ export default function Header() {
       {/* Mobile Dropdown Menu */}
       <nav className={`mobile-nav ${isMobileMenuOpen ? 'active' : ''}`} id="mobileNav">
         <Link 
+          href="/" 
+          className={`mobile-nav-item ${isActiveLink('/') ? 'active' : ''}`}
+          onClick={() => setIsMobileMenuOpen(false)}
+        >
+          Home
+        </Link>
+        <Link 
+          href="/preise" 
+          className="mobile-nav-item"
+          onClick={() => setIsMobileMenuOpen(false)}
+        >
+          Preise
+        </Link>
+        <Link 
           href="/team" 
-          className={`mobile-nav-item ${isActiveLink('/team') || isActiveLink('/') ? 'active' : ''}`}
+          className={`mobile-nav-item ${isActiveLink('/team') ? 'active' : ''}`}
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Team
         </Link>
         <Link 
-          href="/roi-calculator" 
+          href="/kurs" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
-          ROI-Rechner
+          Kurs
         </Link>
         <Link 
           href="/kontakt" 
