@@ -152,9 +152,9 @@ export default function Team() {
               <div className="cta-icon">🎓</div>
               <h3 className="cta-title">Kurseinblick</h3>
               <p className="cta-description">Erfahre mehr über unseren Kurs</p>
-              <Link href="/roi-rechner" className="cta-button-card">
+              <a href="https://kurs.ai-allstars.com" className="cta-button-card">
                 Kurs entdecken
-              </Link>
+              </a>
             </div>
 
             {/* CTA 3: Preise */}
@@ -162,9 +162,9 @@ export default function Team() {
               <div className="cta-icon">💰</div>
               <h3 className="cta-title">Preise</h3>
               <p className="cta-description">Entdecke unsere AI-PASS Pakete und finde das passende für dein Team</p>
-              <Link href="/preise" className="cta-button-card">
+              <a href="https://preise.ai-allstars.com" className="cta-button-card">
                 Preise entdecken
-              </Link>
+              </a>
             </div>
 
             {/* CTA 4: Kontakt */}
@@ -172,9 +172,9 @@ export default function Team() {
               <div className="cta-icon">💬</div>
               <h3 className="cta-title">Kontaktieren</h3>
               <p className="cta-description">Kontaktiere uns direkt</p>
-              <Link href="/kontakt" className="cta-button-card">
+              <a href="https://kontakt.ai-allstars.com" className="cta-button-card">
                 Kontakt
-              </Link>
+              </a>
             </div>
           </div>
         </section>
