@@ -67,23 +67,23 @@ export default function Header() {
       </a>
       
       <nav className="header-nav" id="headerNav">
-        <a href="https://ai-allstars.com">
+        <button onClick={() => window.location.href = 'https://ai-allstars.com'} className="nav-link-button">
           Home
-        </a>
-        <a href="https://ai-allstars.com/preise">Preise</a>
+        </button>
+        <button onClick={() => window.location.href = 'https://ai-allstars.com/preise'} className="nav-link-button">Preise</button>
         <Link 
           href="/team" 
           className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <a href="https://ai-allstars.com/kurs">Kurs</a>
-        <a href="https://ai-allstars.com/kontakt">Kontakt</a>
+        <button onClick={() => window.location.href = 'https://ai-allstars.com/kurs'} className="nav-link-button">Kurs</button>
+        <button onClick={() => window.location.href = 'https://ai-allstars.com/kontakt'} className="nav-link-button">Kontakt</button>
       </nav>
       
-      <a href="https://ai-allstars.com/kontakt" className="header-cta">
+      <button onClick={() => window.location.href = 'https://ai-allstars.com/kontakt'} className="header-cta">
         AI Pass Beratung
-      </a>
+      </button>
       
       {/* Mobile Star Menu Button */}
       <button 
@@ -98,20 +98,24 @@ export default function Header() {
       
       {/* Mobile Dropdown Menu */}
       <nav className={`mobile-nav ${isMobileMenuOpen ? 'active' : ''}`} id="mobileNav">
-        <a 
-          href="https://ai-allstars.com" 
-          className="mobile-nav-item"
-          onClick={() => setIsMobileMenuOpen(false)}
+        <button 
+          onClick={() => {
+            window.location.href = 'https://ai-allstars.com';
+            setIsMobileMenuOpen(false);
+          }}
+          className="mobile-nav-item nav-link-button"
         >
           Home
-        </a>
-        <a 
-          href="https://ai-allstars.com/preise" 
-          className="mobile-nav-item"
-          onClick={() => setIsMobileMenuOpen(false)}
+        </button>
+        <button 
+          onClick={() => {
+            window.location.href = 'https://ai-allstars.com/preise';
+            setIsMobileMenuOpen(false);
+          }}
+          className="mobile-nav-item nav-link-button"
         >
           Preise
-        </a>
+        </button>
         <Link 
           href="/team" 
           className={`mobile-nav-item ${isActiveLink('/team') ? 'active' : ''}`}
@@ -119,27 +123,33 @@ export default function Header() {
         >
           Team
         </Link>
-        <a 
-          href="https://ai-allstars.com/kurs" 
-          className="mobile-nav-item"
-          onClick={() => setIsMobileMenuOpen(false)}
+        <button 
+          onClick={() => {
+            window.location.href = 'https://ai-allstars.com/kurs';
+            setIsMobileMenuOpen(false);
+          }}
+          className="mobile-nav-item nav-link-button"
         >
           Kurs
-        </a>
-        <a 
-          href="https://ai-allstars.com/kontakt" 
-          className="mobile-nav-item"
-          onClick={() => setIsMobileMenuOpen(false)}
+        </button>
+        <button 
+          onClick={() => {
+            window.location.href = 'https://ai-allstars.com/kontakt';
+            setIsMobileMenuOpen(false);
+          }}
+          className="mobile-nav-item nav-link-button"
         >
           Kontakt
-        </a>
-        <a 
-          href="https://ai-allstars.com/kontakt" 
-          className="mobile-cta"
-          onClick={() => setIsMobileMenuOpen(false)}
+        </button>
+        <button 
+          onClick={() => {
+            window.location.href = 'https://ai-allstars.com/kontakt';
+            setIsMobileMenuOpen(false);
+          }}
+          className="mobile-cta nav-link-button"
         >
           AI Pass Beratung
-        </a>
+        </button>
       </nav>
     </header>
   );
