@@ -19,14 +19,14 @@ export default function Footer() {
         <div className="footer-links">
           <div className="footer-column">
             <h4>Services</h4>
-            <button onClick={() => window.location.href = 'https://ai-allstars.com/kurs'} className="footer-link-button">Kurs-Einblick</button>
-            <button onClick={() => window.location.href = 'https://ai-allstars.com/preise'} className="footer-link-button">Preise</button>
+            <button onClick={() => window.location.href = 'https://www.kurse.ai-allstars.com'} className="footer-link-button">Kurs-Einblick</button>
+            <button onClick={() => window.location.href = 'https://www.preise.ai-allstars.com'} className="footer-link-button">Preise</button>
           </div>
           
           <div className="footer-column">
             <h4>Unternehmen</h4>
             <Link href="/team">Team</Link>
-            <button onClick={() => window.location.href = 'https://ai-allstars.com/kontakt'} className="footer-link-button">Kontakt</button>
+            <button onClick={() => window.location.href = 'https://www.kontakt.ai-allstars.com'} className="footer-link-button">Kontakt</button>
           </div>
           
           <div className="footer-column">

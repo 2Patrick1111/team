@@ -70,18 +70,18 @@ export default function Header() {
         <button onClick={() => window.location.href = 'https://ai-allstars.com'} className="nav-link-button">
           Home
         </button>
-        <button onClick={() => window.location.href = 'https://ai-allstars.com/preise'} className="nav-link-button">Preise</button>
+        <button onClick={() => window.location.href = 'https://www.preise.ai-allstars.com'} className="nav-link-button">Preise</button>
         <Link 
           href="/team" 
           className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <button onClick={() => window.location.href = 'https://ai-allstars.com/kurs'} className="nav-link-button">Kurs</button>
-        <button onClick={() => window.location.href = 'https://ai-allstars.com/kontakt'} className="nav-link-button">Kontakt</button>
+        <button onClick={() => window.location.href = 'https://www.kurse.ai-allstars.com'} className="nav-link-button">Kurs</button>
+        <button onClick={() => window.location.href = 'https://www.kontakt.ai-allstars.com'} className="nav-link-button">Kontakt</button>
       </nav>
       
-      <button onClick={() => window.location.href = 'https://ai-allstars.com/kontakt'} className="header-cta">
+      <button onClick={() => window.location.href = 'https://www.kontakt.ai-allstars.com'} className="header-cta">
         AI Pass Beratung
       </button>
       
@@ -109,7 +109,7 @@ export default function Header() {
         </button>
         <button 
           onClick={() => {
-            window.location.href = 'https://ai-allstars.com/preise';
+            window.location.href = 'https://www.preise.ai-allstars.com';
             setIsMobileMenuOpen(false);
           }}
           className="mobile-nav-item nav-link-button"
@@ -125,7 +125,7 @@ export default function Header() {
         </Link>
         <button 
           onClick={() => {
-            window.location.href = 'https://ai-allstars.com/kurs';
+            window.location.href = 'https://www.kurse.ai-allstars.com';
             setIsMobileMenuOpen(false);
           }}
           className="mobile-nav-item nav-link-button"
@@ -134,7 +134,7 @@ export default function Header() {
         </button>
         <button 
           onClick={() => {
-            window.location.href = 'https://ai-allstars.com/kontakt';
+            window.location.href = 'https://www.kontakt.ai-allstars.com';
             setIsMobileMenuOpen(false);
           }}
           className="mobile-nav-item nav-link-button"
@@ -143,7 +143,7 @@ export default function Header() {
         </button>
         <button 
           onClick={() => {
-            window.location.href = 'https://ai-allstars.com/kontakt';
+            window.location.href = 'https://www.kontakt.ai-allstars.com';
             setIsMobileMenuOpen(false);
           }}
           className="mobile-cta nav-link-button"
