@@ -77,7 +77,7 @@ export default function Header() {
         >
           Team
         </Link>
-        <button onClick={() => window.location.href = 'https://www.kurse.ai-allstars.com'} className="nav-link-button">Kurs</button>
+        <button onClick={() => window.location.href = 'https://www.kurs.ai-allstars.com'} className="nav-link-button">Kurs</button>
         <button onClick={() => window.location.href = 'https://www.kontakt.ai-allstars.com'} className="nav-link-button">Kontakt</button>
       </nav>
       
@@ -125,7 +125,7 @@ export default function Header() {
         </Link>
         <button 
           onClick={() => {
-            window.location.href = 'https://www.kurse.ai-allstars.com';
+            window.location.href = 'https://www.kurs.ai-allstars.com';
             setIsMobileMenuOpen(false);
           }}
           className="mobile-nav-item nav-link-button"

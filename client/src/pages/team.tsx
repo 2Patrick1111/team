@@ -152,7 +152,7 @@ export default function Team() {
               <div className="cta-icon">🎓</div>
               <h3 className="cta-title">Kurseinblick</h3>
               <p className="cta-description">Erfahre mehr über unseren Kurs</p>
-              <button onClick={() => window.location.href = 'https://www.kurse.ai-allstars.com'} className="cta-button-card">
+              <button onClick={() => window.location.href = 'https://www.kurs.ai-allstars.com'} className="cta-button-card">
                 Kurs entdecken
               </button>
             </div>
