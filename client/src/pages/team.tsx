@@ -116,16 +116,14 @@ export default function Team() {
     <div>
       {/* Starry Background */}
       <div className="starry-bg"></div>
-
       <Header />
-
       {/* Hauptinhalt */}
       <main>
         {/* Hero Section */}
         <section className="hero">
           <div className="hero-content">
             <h1>Unser <span className="gradient-text">Allstars Team</span></h1>
-            <p className="hero-subtitle">Die Allstars für KI-Transformation</p>
+            <p className="hero-subtitle">Die AI Allstars für KI-Transformation</p>
             <p className="hero-description">
               Lernen Sie die Köpfe hinter AI Allstars kennen - ein Team aus erfahrenen KI-Spezialisten, Strategieberatern und Technologie-Experten, die Ihr Unternehmen erfolgreich in die Zukunft führen.
             </p>
@@ -177,7 +175,6 @@ export default function Team() {
         </section>
 
       </main>
-
       <Footer />
     </div>
   );
