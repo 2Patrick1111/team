@@ -31,8 +31,8 @@ export default function Footer() {
           
           <div className="footer-column">
             <h4>Rechtliches</h4>
-            <Link href="/datenschutz">Datenschutz</Link>
-            <Link href="/impressum">Impressum</Link>
+            <a href="https://ai-allstars.com/datenschutz">Datenschutz</a>
+            <a href="https://ai-allstars.com/impressum">Impressum</a>
           </div>
         </div>
       </div>
