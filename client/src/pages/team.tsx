@@ -8,6 +8,7 @@ import antonioImage from "@/assets/Antonio_1752935777029.png";
 import jennyImage from "@/assets/Jenny_1752936012533.png";
 import antonImage from "@/assets/anton_1752936501027.png";
 import markoImage from "@/assets/Marko_1752937178012.png";
+import broschuerePDF from "@/assets/AI_Pass_Broschuere.pdf";
 
 const teamMembers = [
   {
@@ -142,9 +143,9 @@ export default function Team() {
               <div className="cta-icon">📄</div>
               <h3 className="cta-title">Kostenlose Broschüre</h3>
               <p className="cta-description">Erhalten Sie alle Details zum 5-Wochen AI-PASS Programm als PDF</p>
-              <Link href="/brochure" className="cta-button-card">
+              <a href={broschuerePDF} download="AI_Pass_Broschuere.pdf" className="cta-button-card">
                 Broschüre herunterladen
-              </Link>
+              </a>
             </div>
 
             {/* CTA 2: Kurseinblick */}
