@@ -70,18 +70,18 @@ export default function Header() {
         <a href="https://ai-allstars.com">
           Home
         </a>
-        <a href="https://preise.ai-allstars.com">Preise</a>
+        <a href="https://ai-allstars.com/preise">Preise</a>
         <Link 
           href="/team" 
           className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <a href="https://kurs.ai-allstars.com">Kurs</a>
-        <a href="https://kontakt.ai-allstars.com">Kontakt</a>
+        <a href="https://ai-allstars.com/kurs">Kurs</a>
+        <a href="https://ai-allstars.com/kontakt">Kontakt</a>
       </nav>
       
-      <a href="https://kontakt.ai-allstars.com" className="header-cta">
+      <a href="https://ai-allstars.com/kontakt" className="header-cta">
         AI Pass Beratung
       </a>
       
@@ -106,7 +106,7 @@ export default function Header() {
           Home
         </a>
         <a 
-          href="https://preise.ai-allstars.com" 
+          href="https://ai-allstars.com/preise" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
@@ -120,21 +120,21 @@ export default function Header() {
           Team
         </Link>
         <a 
-          href="https://kurs.ai-allstars.com" 
+          href="https://ai-allstars.com/kurs" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kurs
         </a>
         <a 
-          href="https://kontakt.ai-allstars.com" 
+          href="https://ai-allstars.com/kontakt" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kontakt
         </a>
         <a 
-          href="https://kontakt.ai-allstars.com" 
+          href="https://ai-allstars.com/kontakt" 
           className="mobile-cta"
           onClick={() => setIsMobileMenuOpen(false)}
         >
