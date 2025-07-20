@@ -19,14 +19,14 @@ export default function Footer() {
         <div className="footer-links">
           <div className="footer-column">
             <h4>Services</h4>
-            <Link href="/roi-calculator">Kurs-Einblick</Link>
-            <Link href="/#features">Preise</Link>
+            <a href="https://kurs.ai-allstars.com">Kurs-Einblick</a>
+            <a href="https://preise.ai-allstars.com">Preise</a>
           </div>
           
           <div className="footer-column">
             <h4>Unternehmen</h4>
             <Link href="/team">Team</Link>
-            <Link href="/#signup">Kontakt</Link>
+            <a href="https://kontakt.ai-allstars.com">Kontakt</a>
           </div>
           
           <div className="footer-column">

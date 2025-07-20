@@ -57,36 +57,33 @@ export default function Header() {
 
   return (
     <header className="liquid-header" id="header">
-      <Link href="/" className="header-logo" id="main-logo">
+      <a href="https://www.ai-allstars.com" className="header-logo" id="main-logo">
         <img 
           src={logoImage} 
           alt="AI Allstars" 
           className="logo-image" 
           title="Zur Startseite"
         />
-      </Link>
+      </a>
       
       <nav className="header-nav" id="headerNav">
-        <Link 
-          href="/" 
-          className={isActiveLink('/') ? 'active' : ''}
-        >
+        <a href="https://www.ai-allstars.com">
           Home
-        </Link>
-        <Link href="/preise">Preise</Link>
+        </a>
+        <a href="https://preise.ai-allstars.com">Preise</a>
         <Link 
           href="/team" 
           className={isActiveLink('/team') ? 'active' : ''}
         >
           Team
         </Link>
-        <Link href="/kurs">Kurs</Link>
-        <Link href="/kontakt">Kontakt</Link>
+        <a href="https://kurs.ai-allstars.com">Kurs</a>
+        <a href="https://kontakt.ai-allstars.com">Kontakt</a>
       </nav>
       
-      <Link href="/kontakt" className="header-cta">
+      <a href="https://kontakt.ai-allstars.com" className="header-cta">
         AI Pass Beratung
-      </Link>
+      </a>
       
       {/* Mobile Star Menu Button */}
       <button 
@@ -101,20 +98,20 @@ export default function Header() {
       
       {/* Mobile Dropdown Menu */}
       <nav className={`mobile-nav ${isMobileMenuOpen ? 'active' : ''}`} id="mobileNav">
-        <Link 
-          href="/" 
-          className={`mobile-nav-item ${isActiveLink('/') ? 'active' : ''}`}
+        <a 
+          href="https://www.ai-allstars.com" 
+          className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Home
-        </Link>
-        <Link 
-          href="/preise" 
+        </a>
+        <a 
+          href="https://preise.ai-allstars.com" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Preise
-        </Link>
+        </a>
         <Link 
           href="/team" 
           className={`mobile-nav-item ${isActiveLink('/team') ? 'active' : ''}`}
@@ -122,27 +119,27 @@ export default function Header() {
         >
           Team
         </Link>
-        <Link 
-          href="/kurs" 
+        <a 
+          href="https://kurs.ai-allstars.com" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kurs
-        </Link>
-        <Link 
-          href="/kontakt" 
+        </a>
+        <a 
+          href="https://kontakt.ai-allstars.com" 
           className="mobile-nav-item"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           Kontakt
-        </Link>
-        <Link 
-          href="/kontakt" 
+        </a>
+        <a 
+          href="https://kontakt.ai-allstars.com" 
           className="mobile-cta"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           AI Pass Beratung
-        </Link>
+        </a>
       </nav>
     </header>
   );
