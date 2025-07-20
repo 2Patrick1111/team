@@ -16,9 +16,8 @@ const teamMembers = [
     description: "Mit umfassender KI-Expertise und langjähriger Erfahrung in Automatisierung entwickelt Patrick innovative KI-Lösungen, um Unternehmen nachhaltig zu transformieren und interne Prozesse zu optimieren.",
     image: patrickImage,
     social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/patrick-thomas-38ab512ba/",
+      email: "patrick.thomas@ai-allstars.com"
     }
   },
   {
@@ -27,9 +26,8 @@ const teamMembers = [
     description: "Antonio verbindet fundierte KI-Kenntnisse mit exzellenter Kommunikationsstärke und unterstützt Unternehmen dabei, strategisch und strukturell das volle Potenzial künstlicher Intelligenz auszuschöpfen.",
     image: antonioImage,
     social: {
-      linkedin: "#",
-      github: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/antonio-eichler-841296300/",
+      email: "antonio.eichler@ai-allstars.com"
     }
   },
   {
@@ -38,9 +36,8 @@ const teamMembers = [
     description: "Mit ihrer Expertise im Controlling und der Automatisierung von Antragsprozessen sorgt Jenny für reibungslose Abläufe und ist die Spezialistin für effizientes Antragswesen in unserem Team.",
     image: jennyImage,
     social: {
-      linkedin: "#",
-      xing: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/jenny-thomas-31a199352/",
+      email: "jenny.thomas@ai-allstars.com"
     }
   },
   {
@@ -49,9 +46,8 @@ const teamMembers = [
     description: "Anton bringt seine Stärken in der KI- und Systementwicklung sowie der Automatisierung ein, um Unternehmen bei der Effizienzsteigerung wirkungsvoll zu unterstützen.",
     image: antonImage,
     social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/anton-trommer-b6997028a/",
+      email: "anton.trommer@ai-allstars.com"
     }
   },
   {
@@ -60,9 +56,8 @@ const teamMembers = [
     description: "Als Kommunikationsspezialist stärkt Marko sowohl interne Prozesse als auch die externe Kommunikation und ist damit ein zentraler Bestandteil unseres Teams.",
     image: markoImage,
     social: {
-      linkedin: "#",
-      github: "#",
-      email: "#"
+      linkedin: "https://www.linkedin.com/in/markopreneur/",
+      email: "marko@ai-allstars.com"
     }
   }
 ];
